@@ -60,13 +60,13 @@ class _MyHomePageState extends State<MyHomePage> {
             if (_counter % 2 == 0) ... [
               const Text(
               'GENAP',
-              style: TextStyle(color: Colors.red),
+              style: TextStyle(color:Colors.red),
             ),
             ]
             else ... [
               const Text(
               'GANJIL',
-              style: TextStyle(color: Colors.blue),
+              style: TextStyle(color:Colors.blue),
             ),
             ],
 
@@ -83,11 +83,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
         // button
         children: <Widget> [
-          FloatingActionButton(
-            onPressed: _decrementCounter,
-            tooltip: 'Decrement',
-            child: const Icon(Icons.remove),
-          ),
+          if (_counter > 0) ... [
+            FloatingActionButton(
+              onPressed: _decrementCounter,
+              tooltip: 'Decrement',
+              child: const Icon(Icons.remove),
+            ),
+          ]
+          else ... [
+            const Text("",style:TextStyle(color:Colors.white),),
+          ],
 
           FloatingActionButton(
             onPressed: _incrementCounter,
