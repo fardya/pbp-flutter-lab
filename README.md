@@ -1,6 +1,6 @@
+Davina Fardya Zulfa Izzati (2106702005)
 
 ## Tugas 7
-Davina Fardya Zulfa Izzati (2106702005)
 
 ### Stateless Widget dan Stateful Widget
 Stateless widget adalah widget yang isinya tetap, sedangkan stateful widget adalah widget yang isinya dinamis.
@@ -31,9 +31,9 @@ Sementara itu, final mendeklarasikan variabel yang nilainya diketahui saat progr
 
 ## Tugas 8
 
-### Perbedaan `Navigator.push` dan `Navigator.pushReplacement`
-`Navigator.push` akan menampilkan layar lain di atas layar yang sedang ditampilkan, sedangkan `Navigator.pushReplacement` akan menggantikan layar yang sedang ditampilkan dengan layar lain.
-`Navigator.push` mengizinkan pengguna kembali ke layar sebelumnya, `Navigator.pushReplacement` tidak.
+### Perbedaan Navigator.push dan Navigator.pushReplacement
+Navigator.push akan menampilkan layar lain di atas layar yang sedang ditampilkan, sedangkan Navigator.pushReplacement akan menggantikan layar yang sedang ditampilkan dengan layar lain.
+Navigator.push mengizinkan pengguna kembali ke layar sebelumnya, Navigator.pushReplacement tidak.
 
 ### Daftar Widget yang Digunakan
 Selain yang sudah digunakan pada tugas 7.
