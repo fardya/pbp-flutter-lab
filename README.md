@@ -28,3 +28,36 @@ Sementara itu, final mendeklarasikan variabel yang nilainya diketahui saat progr
 - Membuat fungsi _decrementCounter untuk melakukan decrement terhadap nilai _counter jika nilainya lebih besar dari nol
 - Membuat teks yang menampilkan 'GENAP' jika nilai _counter genap dan 'GANJIL' jika nilainya ganjil
 - Membuat tombol yang memanggil fungsi _decrementCounter
+
+## Tugas 8
+
+### Perbedaan `Navigator.push` dan `Navigator.pushReplacement`
+`Navigator.push` akan menampilkan layar lain di atas layar yang sedang ditampilkan, sedangkan `Navigator.pushReplacement` akan menggantikan layar yang sedang ditampilkan dengan layar lain.
+`Navigator.push` mengizinkan pengguna kembali ke layar sebelumnya, `Navigator.pushReplacement` tidak.
+
+### Daftar Widget yang Digunakan
+Selain yang sudah digunakan pada tugas 7.
+
+- Drawer: membuat hamburger menu
+- Form: membuat form
+- TextButton: menampilkan button 
+- Container: sebagai tempat untuk meletakkan widget lain
+- ListTile: menampilkan informasi dalam sebuah list
+- DropdownButtonHideUnderline: membuat dropdown tanpa underline
+- ListView: menampilkan children widget yang dapat di-scroll
+
+### Jenis-jenis Event pada Flutter 
+- onPressed: event terjadi karena widget ditekan
+- onSaved: event terjadi karena ada penyimpanan data
+- onChanged: event terjadi karena ada perubahan data pada widget
+
+### Cara Navigator Mengganti Halaman
+Cara kerja navigator mirip dengan stack. Isi stack tersebut adalah route.
+Ketika pengguna membuka suatu halaman, dilakukan push ke dalam stack sehingga item teratas merupakan route tersebut.
+Jika ingin kembali ke halaman sebelumnya, dilakukan pop untuk mengeluarkan route teratas (halaman yang sedang dibuka) sehingga route teratas yang baru adalah halaman sebelumnya.
+
+### Implementasi
+- Membuat form.dart untuk halaman form yang berfungsi untuk menambah data budget
+- Membuat data.dart untuk menampilkan semua data budget
+- Membuat file drawer.dart untuk navigasi pada bagian kiri atas aplikasi
+- Menghubungkan seluruh file dengan import dan nama kelas yang sesuai
