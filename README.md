@@ -57,7 +57,7 @@ Ketika pengguna membuka suatu halaman, dilakukan push ke dalam stack sehingga it
 Jika ingin kembali ke halaman sebelumnya, dilakukan pop untuk mengeluarkan route teratas (halaman yang sedang dibuka) sehingga route teratas yang baru adalah halaman sebelumnya.
 
 ### Implementasi
-- Membuat form.dart untuk halaman form yang berfungsi untuk menambah data budget
-- Membuat data.dart untuk menampilkan semua data budget
+- Membuat file form.dart untuk halaman form yang berfungsi untuk menambah data budget
+- Membuat file data.dart untuk menampilkan semua data budget
 - Membuat file drawer.dart untuk navigasi pada bagian kiri atas aplikasi
 - Menghubungkan seluruh file dengan import dan nama kelas yang sesuai
