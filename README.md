@@ -70,6 +70,8 @@ Pengambilan data JSON bisa dilakukan tanpa membuat model terlebih dahulu. Implem
 Pengambilan data JSON tanpa membuat model terlebih dahulu dapat membuat developer sulit untuk melihat dan mengelola data tersebut.
 
 ### Daftar Widget yang Digunakan
+
+Selain yang sudah digunakan pada tugas 7 dan 8.
 - FutureBuilder: menampilkan data dari web service yang mendukung proses asinkron
 - Checkbox: menampilkan checkbox pada page My Watch List
 - Card: membuat ruang mirip kartu untuk memuat data-data mywatchlist
