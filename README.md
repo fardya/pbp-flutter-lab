@@ -61,3 +61,31 @@ Jika ingin kembali ke halaman sebelumnya, dilakukan pop untuk mengeluarkan route
 - Membuat file data.dart untuk menampilkan semua data budget
 - Membuat file drawer.dart untuk navigasi pada bagian kiri atas aplikasi
 - Menghubungkan seluruh file dengan import dan nama kelas yang sesuai
+
+## Tugas 9
+
+### Pengambilan Data JSON
+Pengambilan data JSON bisa dilakukan tanpa membuat model terlebih dahulu. Implementasinya menggunakan built-in JSON decoder dari dart:convert.Data JSON dikirim sebagai HTTP response dalam bentuk raw data JSON String ke jsonDecode(), kemudian hasilnya akan ada pada Map<String, dynamic>.
+<br>
+Pengambilan data JSON tanpa membuat model terlebih dahulu dapat membuat developer sulit untuk melihat dan mengelola data tersebut.
+
+### Daftar Widget yang Digunakan
+- FutureBuilder: menampilkan data dari web service yang mendukung proses asinkron
+- Checkbox: menampilkan checkbox pada page My Watch List
+- Card: membuat ruang mirip kartu untuk memuat data-data mywatchlist
+- SizedBox: membuat kotak dengan ukuran yang spesifik
+
+### Mekanisme Pengambilan Data dari JSON
+- Menambahkan dependensi HTTP
+- Mendefinisikan model sesuai dengan data yang akan diambil
+- Membuat fungsi untuk melakukan fetching data dari web service
+- Melakukan HTTP request dengan method GET
+- Menampilkan data yang telah dikonversi menjadi Dart object dengan FutureBuilder
+
+### Implementasi
+- Memindahkan file ke dalam folder baru pada lib untuk meningkatkan keterbacaan
+- Membuat file mywatchlist.dart berisi model MyWatchList berdasarkan data JSON dari web service
+- Menambahkan dependensi HTTP
+- Membuat file mywatchlist_fetch.dart untuk fetch data
+- Membuat file watchlistdetail.dart untuk data
+- Menampilkan data pada widget
